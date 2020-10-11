@@ -1,0 +1,60 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 50 50;
+	background-image:url('./images/monstera.jpg');
+	background-size: cover;
+	border: solid white 20px;
+}
+
+h1{
+	font-family: 'Raleway Dots', cursive;
+	letter-spacing: 10px;
+	color: white;
+	vertical-align: top;
+}
+
+h4{
+	font-family: 'Raleway', sans-serif;
+}
+
+div {
+	font-family: 'Raleway', sans-serif;
+}
+
+img {
+	align-items: right;
+	height: 350px;
+	width: 350px;
+	border-radius: 200px;
+}
+
+/*
+p {
+	background-color: rgba(0,0,0,.35);
+	color: white;
+	margin: 40 40px;
+	font-family: 'Raleway', sans-serif;
+}
+*/
+
+.container-1 {
+	display: flex;
+	align-items: center;
+	background-color: rgba(88, 208, 73, 0.2);
+	padding: 25px;
+}
+
+.header {
+	margin-right: 20px;
+	flex:1; 
+	background-color: rgba(208, 185, 73, 0.2);
+	text-align: right;
+	padding: 20px;
+}
+
+.image {
+	margin-right: 100;
+}
+
